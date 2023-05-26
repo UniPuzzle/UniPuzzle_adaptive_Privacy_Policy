@@ -551,12 +551,13 @@ img {
 
 .footer-wrapper {
   display: flex;
-  padding: 55px 35px 50px 35px;
+  padding: 55px 10px 50px 10px;
   justify-content: space-between;
 }
 
 .footer-logo {
   display: flex;
+  width: 200px;
   flex-wrap: wrap;
 }
 
@@ -644,6 +645,7 @@ img {
 
 @media screen and (min-width: 480px) {
   .background-img {
+    min-width: 1440px;
     content: "";
     background-repeat: no-repeat;
     background-position: center;
